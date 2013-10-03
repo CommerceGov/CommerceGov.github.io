@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <link type="text/css" href="/css/1-3col.css" rel="stylesheet" media="screen" />
+    <title>No.1 :: CSS Template :: XTML 1.0 Transitional</title>
+    <link rel="shortcut icon" href="http://www.commerce.gov/sites/all/themes/commerce/favicon.ico" type="image/x-icon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="banner" ><a href="http://www.intensivstation.ch"><img src="http://www.intensivstation.ch/files/images/monorom_css_logo.gif" alt="" width="414" height="56" border="0" /></a>
+ 	<h1>service for a better code</h1>
+      </div>
+      <div id="left">
+	<h2>Menu left</h2>
+	<pre>
+#left {
+float: left;
+width: 200px;
+margin: 0px;
+padding: 0px;
+}
+</pre>
+	<p><a href="http://validator.w3.org/check?uri=http%3A%2F%2Fintensivstation.ch%2Ffiles%2Ftemplates%2F2%2Ftemplate-1.html"><img src="http://www.intensivstation.ch/files/images/buttons/xhtml10.gif" alt="" width="80" height="15" border="0"/></a><br/>
+	  <a href="http://www.monorom.com"><img src="http://www.intensivstation.ch/files/images/buttons/monorom_button.gif" alt="monorom" width="80" height="15" border="0"/></a><br />
+	  <!-- Creative Commons License -->
+	  <a rel="license" href="http://creativecommons.org/licenses/by/1.0/"><img src="http://www.intensivstation.ch/files/images/buttons/cc.gif" alt="Creative Commons License" width="80" height="15" border="0"/></a><br />
+	  This work is licensed under a <br />
+	  <a rel="license" href="http://creativecommons.org/licenses/by/1.0/">Creative Commons License</a>.</p>
+      </div>
+      <div id="right">
+	<h2>Menu right</h2>
+	<pre>
+#right {
+float: right;
+width: 200px;
+margin: 0;
+padding: 0;
+}
+	</pre>
+      </div>	
+      <div id="content">
+	<h2>Content</h2>
+	<p>All templates are XHTML 1.0 and CSS2/ tableless.<br />
+	  This Template has been tested on the following Browser: <br />
+	  <b>MAC</b> Safari, Opera6.3 Opera8.5, Mozilla, Firefox, IE 
+	  <br /><b>PC:</b> IE 6, Firefox <br />
+	  <b>Linux:</b> Konqueror, Firefox</p>
+	<p><img src="http://intensivstation.ch/files/images/buttons/download.gif" alt="css template" border="0" class="download" /> <a href="/files/en_templates/2/template-1-3col.zip">Dowload Template </a></p>
+	<p><b>3 columns /  centered / fixed width</b><br />
+	  3 columns layout grid, all columns have a fixed width and are centered.<br />
+	  This Layout hat eine minimale H&#xF6;he f&#252;r den <code>content</code> div, so dass Navigation und Inhalt immer gleich lang sind.
+	</p>
+	<pre>
+#container {
+width: 900px;
+margin-bottom: 10px;
+margin: 0 auto;
+background-color: #ff99cc;
+}
+	</pre>
+	<p>The  <code>container</code> div zentriert das Layout und gibt ihm die Breite. The left and right column gets the backgroundcolor from the <code>container</code> div.</p>
+	<pre>
+#content {
+background-color: #ffffff;
+padding: 0;
+margin: 0 200px;
+}
+
+div#content { 
+min-height:600px;
+height:expression(this.scrollHeight > 600 ? "auto":"600px"); }
+	</pre>
+	<p>The <code>content</code>-div has a left and a right margin. Setting a <code>min-height</code> assures that the content area is always higher than the navigation.</p>
+
+	<p>IE on MAC doesn't interprets <code>min-height</code>. The dynamic properties (i.e. <code>expression</code>) used in explorer are proprietary by Microsoft. This prevents the css from validating according to W3C.<br />
+&#171;-- <a href="javascript:history.back()">back</a></p>	
+	
+      </div>
+      <div id="footer"><h1>in valid code we trust (*^_^*) miss monorom</h1></div>
+    </div>
+  </body>
+</html>
