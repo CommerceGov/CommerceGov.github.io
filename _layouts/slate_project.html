@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css'>
+
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="US Department of Commerce on GitHub" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/stylesheet.css">
+
+    <title>{{ page.title }} - {{ page.tagline }}</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    {% include slate_project_header.html %}
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        {{ content }}
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    {% include slate_footer.html %}
+
+  </body>
+</html>
