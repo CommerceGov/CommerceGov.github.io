@@ -5,7 +5,7 @@ tagline: GFDL
 logo: NOAA_logo_small.png
 ---
 
-## [Module Ocean Model (MOM6)](http://github.com/CommerceGov/noaa-gfdl-mom6)
+## The [Modular Ocean Model (MOM6)](http://github.com/NOAA-GFDL/MOM6-examples)
 
 MOM6 is the sixth generation of the Modular Ocean Model under
 development by scientists at at NOAA/GFDL, in collaboration with
